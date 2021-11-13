@@ -103,8 +103,9 @@ months.append("Extra month") #Adding element to the end of a list
 months_code.append(13) #Adding element to the end of a list
 print(months) #calling appended list
 print(months_code) #calling appended list
-months_code.insert(1, 0.5)
-print(months_code)
+months_code.insert(1, 0.5) #insert an element to a list
+print(months_code) #call list with inserted element
+
 
 
 
