@@ -96,16 +96,30 @@ months[0] = "First month" #modify list by index position
 print(months) #Call modified list
 print(months[0]) #Call specific modified element by index position
 
-#List Methods
+#List methods
 months.extend(months_code) #concantinate 2 list 
 print(months) #call concantinated list
 months.append("Extra month") #Adding element to the end of a list
 months_code.append(13) #Adding element to the end of a list
 print(months) #calling appended list
 print(months_code) #calling appended list
-months_code.insert(1, 0.5) #insert an element to a list
+months_code.insert(1, 1.5) #insert an element to a list
 print(months_code) #call list with inserted element
+months_code.remove(13) #Remove an element from a list
+print(months_code) #call modified list
+months_code.pop() #remove the last element in the list
+print(months_code) #call popped list
+print(months_code.index(5)) #call element in list by index
+print(months_code.count(5)) #count number of element in list
+months_code.sort() #Arrange elements in accending or alphabetical order
+print(months_code) #call modified list
+months_code.reverse() #reversr the order of a list
+print(months_code) #call the modified list
+months_code2 = months_code.copy()
+print(months_code2)
+months_code.clear() #clear all element from a list
+print(months_code) #call cleared list
 
 
-
+                                        #Tuples
 
