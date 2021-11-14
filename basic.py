@@ -123,3 +123,30 @@ print(months_code) #call cleared list
 
                                         #Tuples
 
+quater = (1, 2, 3, 4) #tuple are immutable
+print(quater)
+print(quater[0]) #calling tuple element by index
+
+
+                                        #Function
+
+
+def x(): #defining a function
+    print(123)
+x() #calling a function
+
+def y(a): #passing a single parameter to a funtion
+    print(a) #defining the body
+y(7) #calling a function with params
+
+def z(b,c): #passing multiple params to a function
+    print(b,c) #defining the body
+z(1,3) #calling function with multiple params
+
+def ax(i): # 
+    return i * i #return function
+print(ax(3)) #calling return function
+
+
+                                        #If Statement
+
