@@ -149,4 +149,10 @@ print(ax(3)) #calling return function
 
 
                                         #If Statement
+if xto is "religious":
+    print(xto + " is a catholic")
+elif xto is not "religious":
+    print(xto + " is irreligious")
+else:
+    print(xto +" is neither religious nor irreligious")
 
