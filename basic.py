@@ -165,8 +165,43 @@ def friends(gender,name): #combination of def and if
     else:
         print("Try again")
 
-gender = input("What's your friends gender? ")
-name = input("What's your friend's name? ")
+#gender = input("What's your friends gender? ") #Commenting out all input variable
+#name = input("What's your friend's name? ") #Commenting out all input variable
+#friends("male", "Ayo") #calling def with an input variable
 
-friends(gender, name)
+friends("male", "Ayo")
 
+
+                                        #Dictionary
+
+monthconv = {
+    "Jan" : "January",
+    "Feb" : "February",
+    "Mar" : "March",
+    "Apr" : "April",
+    "May" : "May",
+    "Jun" : "June",
+    "Jul" : "July",
+    "Aug" : "August",
+    "Sep" : "September",
+    "Oct" : "October",
+    "Nov" : "November",
+    "Dec" : "December"
+}
+print(monthconv["Jan"])
+
+statuscode = {
+    200 : "Ok",
+    201 : "Created",
+    202 : "Accepted",
+    301 : "Moved Permanently",
+    400 : "Bad Request",
+    401 : "Unauthorized",
+    403 : "Forbidden",
+    404 : "Not Found",
+    408 : "Request Timeout",
+    500 : "Internal Server Error",
+    503 : "Service Unavailable",
+    504 : "Gateway Timeout"
+}
+print(statuscode[404])
