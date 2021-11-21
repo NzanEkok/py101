@@ -157,7 +157,7 @@ else:
     print(xto +" is neither religious nor irreligious")
 
 #Complex if statement
-def friends(gender,name):
+def friends(gender,name): #combination of def and if 
     if gender == "male" and name == "Ayo":
         print(name + " is my main man")
     elif gender == "female" and name == "Benee":
