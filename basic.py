@@ -164,5 +164,9 @@ def friends(gender,name): #combination of def and if
         print (name + " Is the LOML")
     else:
         print("Try again")
-friends("male","Ayo")
+
+gender = input("What's your friends gender? ")
+name = input("What's your friend's name? ")
+
+friends(gender, name)
 
